@@ -1,4 +1,7 @@
-# LehaProfile for Entrepreneurs  
+# LehaProfile for Entrepreneurs 
+![Status](https://img.shields.io/badge/Status-WIP-yellow) 
+> ⚠️ В разработке. 
+Сейчас реализовано: █████▌░░░░░░░░░░ 30%
 
 **Микросервис для управления профилем предпринимателя**  
 *(Python, Clean Architecture, Data Validation)*  
