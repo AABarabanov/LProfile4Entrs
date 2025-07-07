@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Полная информация</h1>
+{% include 'view_personal.html' %}
+<h2>Информация о бизнесе</h2>
+<p>ОГРНИП: {{ business.ogrnip }}</p>
+<p>ИНН: {{ business.inn }}</p>
+<p>Расчетный счет: {{ business.payment_account }}</p>
+<p>Банк: {{ business.bank }}</p>
+<p>БИК: {{ business.bik }}</p>
+<p>Корр. счет: {{ business.correspondent_account }}</p>
+<a href="{{ url_for('view_menu') }}">Назад</a>
+
+</body>
+</html>

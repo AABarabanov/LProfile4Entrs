@@ -1,0 +1,13 @@
+<h1>Личная информация</h1>
+<form method="POST">
+    Имя: <input type="text" name="name" value="{{ data.name }}"><br>
+    Возраст: <input type="number" name="age" value="{{ data.age }}"><br>
+    Телефон: <input type="text" name="phone" value="{{ data.phone }}"><br>
+    Email: <input type="email" name="email" value="{{ data.email }}"><br>
+    Почтовый индекс: <input type="text" name="postal_code" value="{{ data.postal_code }}"><br>
+    Адрес: <input type="text" name="postal_address" value="{{ data.postal_address }}"><br>
+    Доп. информация:<br>
+    <textarea name="additional_info">{{ data.additional_info }}</textarea><br>
+    <button type="submit">Сохранить</button>
+</form>
+<a href="{{ url_for('edit_menu') }}">Назад</a>

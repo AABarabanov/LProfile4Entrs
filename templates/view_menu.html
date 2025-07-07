@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Просмотр информации</h1>
+<form method="POST">
+    <button type="submit" name="view_type" value="personal">Общая информация</button>
+    <button type="submit" name="view_type" value="full">Вся информация</button>
+</form>
+<a href="{{ url_for('main_menu') }}">Назад</a>
+
+</body>
+</html>

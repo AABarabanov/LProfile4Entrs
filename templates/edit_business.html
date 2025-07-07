@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Информация о бизнесе</h1>
+<form method="POST">
+    ОГРНИП: <input type="text" name="ogrnip" value="{{ data.ogrnip }}"><br>
+    ИНН: <input type="text" name="inn" value="{{ data.inn }}"><br>
+    Расчетный счет: <input type="text" name="payment_account" value="{{ data.payment_account }}"><br>
+    Банк: <input type="text" name="bank" value="{{ data.bank }}"><br>
+    БИК: <input type="text" name="bik" value="{{ data.bik }}"><br>
+    Корр. счет: <input type="text" name="correspondent_account" value="{{ data.correspondent_account }}"><br>
+    <button type="submit">Сохранить</button>
+</form>
+<a href="{{ url_for('edit_menu') }}">Назад</a>
+
+</body>
+</html>
