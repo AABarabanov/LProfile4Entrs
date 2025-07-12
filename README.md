@@ -1,7 +1,7 @@
-# LehaProfile for Entrepreneurs 
-![Status](https://img.shields.io/badge/Status-WIP-yellow) 
+# LehaProfile for Entrepreneurs ![Version](https://img.shields.io/badge/Version-2.0-blue)
+![Status](https://img.shields.io/badge/Status-WIP-yellow)
 > ⚠️ В разработке. 
-Сейчас реализовано: ███████░░░░░░░░░ 40%
+Сейчас реализовано: ███████▌░░░░░░░░ 45%
 <!-- ▌ -->
 **Микросервис для управления профилем предпринимателя**
 
